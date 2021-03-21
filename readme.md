@@ -12,7 +12,7 @@ https://okanemo-backend.herokuapp.com
 <br/>
 
 ### Frontend / Project Demo
-https://okanemo-backend.herokuapp.com
+https://okanemo.herokuapp.com
 <br/> 
 
 ### Find This Project at Docker Hub
