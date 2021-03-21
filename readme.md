@@ -1,31 +1,33 @@
 # PatientLab
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://okanemo.herokuapp.com)
-
-PatientLab is an project built with Vue.js, Node.js, Express, MongoDB. Also its 
-dockerized.<br/>
-
+PatientLab is an project built with Vue.js, Node.js, Express, MongoDB. Also its dockerized.
+<br/>
 
 ## Project Architecture 
-FullStack<br/>
-
-## Backend API
-https://okanemo-backend.herokuapp.com<br/>
-
-## Frontend / Project Demo
-https://okanemo-backend.herokuapp.com<br/> 
-
-## Find This Project at Docker Hub
+FullStack
 <br/>
 
-# Installation
-## Prerequisites
-- Must have docker and node.js installed on your PC 
-
+### Backend API
+https://okanemo-backend.herokuapp.com
 <br/>
 
-## Node.js (local) Environment
-- Download this repository
-- Open this repository using VSCode 
+### Frontend / Project Demo
+https://okanemo-backend.herokuapp.com
+<br/> 
+
+### Find This Project at Docker Hub
+https://hub.docker.com/r/rincoreiys123/patientlabvue
+<br/>
+<br/>
+
+## Installation
+### Prerequisites
+- Must have docker and node.js installed on your PC PROPERLY
+<br/>
+
+### Node.js (local) Environment
+1. Download this repository
+2. Open this repository using VSCode 
     - Run backend (by terminal) !IMPORTANT
         ``` 
             cd backend
@@ -39,12 +41,21 @@ https://okanemo-backend.herokuapp.com<br/>
             npm install
             npm run serve
         ```
-        Open it at browser with this URL http://localhost:8080   
+3. Open it at browser with this URL http://localhost:8080   
 <br/>
 
-## Docker Container Installation
-- Run image
-    `docker run  `
+### Docker Container Installation
+1. Run image 
+    ```
+        docker run -p 8080:80 rincoreiys123/patientlabvue:latest
+    ```
+    its remote repository, so ignore "Unable find image" warning
+
+2. Open it at browser http://localhost:8080   
+<br/>
+    
+
+
 
 
 
